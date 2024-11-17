@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'laptop': "url('./img/bg-header-desktop.svg')",
+        'mobile': "url('./img/bg-header-mobile.svg')",
+      }
+    },
   },
   plugins: [],
 }
